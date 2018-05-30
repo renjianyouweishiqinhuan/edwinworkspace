@@ -1,9 +1,9 @@
-import javax.servlet.ServletRequest;
-import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.util.Enumeration;
-import java.util.HashMap;
 import java.util.Map;
+
+import javax.servlet.ServletRequest;
+import javax.servlet.http.HttpServletRequest;
 
 public class HttpServletRequestUtils {
 
@@ -20,5 +20,6 @@ public class HttpServletRequestUtils {
         } else {
 
         }
+		return servletRequest;
     }
 }
